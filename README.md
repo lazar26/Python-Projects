@@ -14,6 +14,7 @@ Exits the program.
 
 
 **Diagnostic Assist**
+
 Your job is to write a program that would allow us to diagnose diseases based on a given symptom.
 [60] Feature #1: Display # of Diseases
 This will display the number of diseases in the system -- NOT the symptoms!
