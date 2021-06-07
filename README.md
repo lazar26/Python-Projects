@@ -11,6 +11,8 @@ The officer enters a plate number and the program lists all tickets associated w
 Displays all the tickets in the program along with their paid/unpaid status. It also reports the number of paid tickets and the number of unpaid are in the system.
 5) Exit 
 Exits the program.
+
+
 **Diagnostic Assist**
 Your job is to write a program that would allow us to diagnose diseases based on a given symptom.
 [60] Feature #1: Display # of Diseases
