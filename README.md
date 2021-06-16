@@ -13,18 +13,3 @@ Displays all the tickets in the program along with their paid/unpaid status. It 
 Exits the program.
 
 
-**Diagnostic Assist**
-
-Your job is to write a program that would allow us to diagnose diseases based on a given symptom.
-[60] Feature #1: Display # of Diseases
-This will display the number of diseases in the system -- NOT the symptoms!
-Notice that diseases are in order in the file -- you can take advantage of this. Go through each disease in the system and whenever you see that the current record’s disease name is different than the previous record’s disease name, then increment a counter. At the end of the loop, counter will holds the number of diseases in the system, right? ;-)
-[60] Feature 2: # of Symptoms per Disease Report
-This will display how many symptoms are in the system for ​each d​ isease.
-[100] Feature 3: Diagnose
-This will ask user for a symptom and display all diseases that have that symptom.
-Here are the requirements:
-● [20] ​File I/O:​ Make sure to properly read the data from diagnostic.txt at the very beginning of the program.
-● [20] ​Class:​ Make sure to use a class. The class will need 2 fields.
-● [20] ​Function:​ Make sure that each feature is in its own function. Loading the data should also have in its own function.
-● [20] ​Indentation and Comments:​ Make sure that your program is indented and commented properly
