@@ -22,6 +22,8 @@ Displays all the tickets in the program along with their paid/unpaid status. It 
 
 Exits the program.
 
+-----------------------------------------
+
 **DIAGNOSTIC ASSIST**
 
 Your job is to write a program that would allow us to diagnose diseases based on a given symptom.
@@ -39,6 +41,7 @@ Feature 3:
 Diagnose:
 This will ask user for a symptom and display all diseases that have that symptom.
 
+-----------------------------------------
 **ANTIQUE CAR SEARCH**
 
 Your task is to write a python program that would read the provided file containing a list of Antique cars. For each car, the file provides the Model, MPG, Horsepower and Origin. Given the information in the file, implement the following features:
@@ -52,6 +55,7 @@ This feature would report the average MPG of all the cars in the system along wi
 Feature #3: Inventory By Origin:
 We time to time would like to see how many american, european, japanese, taiwanese etc. cars in the inventory. Ask user for the origin and display how many cars from that origin we have in the database.
 
+-----------------------------------------
 **Input/Output Files**
 
 INPUT:
@@ -77,7 +81,7 @@ Average Ticket Price is $XXX.XX.
 
 Thank you for using our ticket system!
 
-*******************************************
+-----------------------------------------
 
 **VACCINATION TRACKER**
 
@@ -89,6 +93,7 @@ Feature 2: Let the user enter today’s date as a number (as explained above) an
 
 Feature 3: display the number of people (along with percentage) who received one shot and both shots. For those received both shots display the average days between their shots. Make sure to create a function called “Percentage” -- this function takes in 2 numbers as input arguments and returns the percentage. For example, if I call this function with values 10 and 20, it returns back 50 -- where 10 is 50% of 20. Use the “Percentage” function to calculate the percentage of one whot and two shots to total vaccinated. If no vaccination records are found display appropriate messages on screen. Your program should not crash if no one had two shots.
 
+-----------------------------------------
 **CLUB MEMBERSHIP APPLICATION**
 
 Our club needs a software that can keep track of our members. Here are the features of the program
