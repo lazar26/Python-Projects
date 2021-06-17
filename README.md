@@ -148,4 +148,21 @@ Prints out the state of each table. Each table is printed on a separate line -- 
 
 -----------------------------------------
 
+**OFFICE RENTAL**
 
+Your task is to write a program that will compute the monthly cost of renting an office space in our building.
+
+We offer 3 types of offices.
+
+1- Private Office space where customer would have his own private assigned room. The monthly rent for our private offices are $1000.
+
+2- Coworking space where customer would share a room with one or more customers. The monthly rent for coworking is $500.
+
+3- We also provide temporary workspaces. These spaces are rented daily (as opposed to monthly). Customer will enter how many days per month they need the office. 
+
+We charge $60 per day.
+We also provide phone service to every client regardless of their office type. If interested in our phone service, the customer should enter the estimated number of minutes they will use monthly. We charge $0.50 per minute.
+Office rental charge (based on the office type) plus the phone service charge makes up the monthly charge for the customer.
+The program should allow us to get an estimate without exiting the program. At the end, when we do exit, the program should tell us what was the average of estimates provided in that session. This is basically the sum of all the estimates provided divided by the number of estimates provided.
+
+-----------------------------------------
