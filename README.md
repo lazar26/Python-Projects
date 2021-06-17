@@ -78,3 +78,13 @@ Average Ticket Price is $XXX.XX.
 Thank you for using our ticket system!
 
 *******************************************
+
+**VACCINATION TRACKER**
+
+Our task is to write a program to track vaccination in our community.
+
+Feature 1: This feature allows us to enter vaccination records for a person. We enter the name of the person (there is no-one with the same name in our community) along with the date at which he/she was vaccinated. The date is entered as an integer (a number) as days since Jan 01, 2021. This makes it easier for you to do date calculations. For example, 200 means 200 days past Jan 01, 2021 -- which happens to be July 20, 2021. From your perspective, you will only work with the integer numbers (days) and you don’t have to worry about the actual date (month/day/year). If the person already has 2 vaccines, warn the user and do not allow entering a new vaccination record. Each person can get at most two shots of the vaccine.
+
+Feature 2: Let the user enter today’s date as a number (as explained above) and then find those people who had received one shot over 30 days ago. They are due for the second shot, report the person on screen. If no one is found, display an appropriate message.
+
+Feature 3: display the number of people (along with percentage) who received one shot and both shots. For those received both shots display the average days between their shots. Make sure to create a function called “Percentage” -- this function takes in 2 numbers as input arguments and returns the percentage. For example, if I call this function with values 10 and 20, it returns back 50 -- where 10 is 50% of 20. Use the “Percentage” function to calculate the percentage of one whot and two shots to total vaccinated. If no vaccination records are found display appropriate messages on screen. Your program should not crash if no one had two shots.
