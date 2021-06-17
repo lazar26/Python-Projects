@@ -127,3 +127,25 @@ Feature #0 (20 points):​ I should be able to exit out of the program when I am
 User will pick one of the 4 features -- if user makes an invalid choice (enters a number other than these 4 options), let the user know that it is an invalid entry. (20 points)
 
 -----------------------------------------
+
+**RESTARUANT RESERVATION SYSTEM**
+
+Your job is to create a reservation system for a restaurant. The restaurant has 20 tables. Here is the functionality required for this system (you may want to display a menu and let user choose options 1 to 4, make sure to put your program in a loop so program does not exit until user chooses menu 0):
+
+1- Reserve a Table:
+
+User needs to input the table number (Tables are numbered from 0 to 19). If the table is not available (reserved), inform the user that the selected table is not available. If the table is available, then ask for the name (name is a single word, no space) and mark the table as reserved. 
+    
+2- Clear Reservation:
+
+User needs to input the table number (Tables are numbered from 0 to 19). If the table is not reserved, inform the user that the selected table is already available (nothing to clear). If the table is reserved, mark it as available. That table is no longer reserved. 
+
+3- Report:
+
+Prints out the state of each table. Each table is printed on a separate line -- so your report will print out 20 rows. If reserved, it will print out the name on the reservation next to the table number. If available, it should print out "available". 
+    
+0- Exit Program. 
+
+-----------------------------------------
+
+
