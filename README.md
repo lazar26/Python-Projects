@@ -88,3 +88,19 @@ Feature 1: This feature allows us to enter vaccination records for a person. We 
 Feature 2: Let the user enter today’s date as a number (as explained above) and then find those people who had received one shot over 30 days ago. They are due for the second shot, report the person on screen. If no one is found, display an appropriate message.
 
 Feature 3: display the number of people (along with percentage) who received one shot and both shots. For those received both shots display the average days between their shots. Make sure to create a function called “Percentage” -- this function takes in 2 numbers as input arguments and returns the percentage. For example, if I call this function with values 10 and 20, it returns back 50 -- where 10 is 50% of 20. Use the “Percentage” function to calculate the percentage of one whot and two shots to total vaccinated. If no vaccination records are found display appropriate messages on screen. Your program should not crash if no one had two shots.
+
+**CLUB MEMBERSHIP APPLICATION**
+
+Our club needs a software that can keep track of our members. Here are the features of the program
+
+1) Add Member:
+a) Using this feature, we will input the ID number (an integer number) of the member along with the age of the member into the program. [30 points]
+b) If this is the youngest or the oldest member that has ever been entered into the system, then the program should output either “You are the youngest member of the club so far.” or “You are the oldest member of the club so far.” respectively. [30 points]
+c) The program should determine the monthly membership fee for the member based on member’s age and display on the screen upon entering the new member. Normally the fee is $50 per month per member, but if the member is younger than or equal to 25, the fee is $30 per month. If the member is older than and equal to 55, the fee is $15 per month.
+
+2) Report:
+a) Display the total number of members entered into the system. [30 points]
+b) Display the total monthly membership fees to be collected and average membership fee per member. [30 points]
+c) Display the average age of the members along with the youngest and oldest age. [30 points]
+
+3) Exit
