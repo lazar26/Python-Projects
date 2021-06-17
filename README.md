@@ -109,3 +109,21 @@ b) Display the total monthly membership fees to be collected and average members
 c) Display the average age of the members along with the youngest and oldest age. [30 points]
 
 3) Exit
+
+-----------------------------------------
+**TARGET GIFT CARD TRACKER**
+
+Your task is to write a simple app that allows to keep track of my gift cards from Target store. Here are the features of this program:
+
+Feature #1 (60 points):​ ​Add a Gift Card:​ I should be able to add a gift card to the program. I will enter the gift card code which is a number. The value of the gift card (the amount of money in it) can be determined by this number.
+If the card code is above (or equal) 50000, then it has $5 value in it. The cards with code at 40000s (40000 to 49999) has $4 in it. The cards with code at 30000s (30000 to 39999) has $3 and so on all the way down to 10000s (10000 to 19999) has $1 in it. Any code less than 10000 is an invalid code number -- let the user know with a message.
+
+Feature #2 (50 points): ​Remove a Gift Card:​ Sometimes, I may give my gift card away or spend it, in which case, I need to be able to remove the card from the system. I will enter the card code and you will determine what value the card has from the code (just like in feature #1) and remove from the system.
+
+Feature #3 (50 points):​ ​Report: ​I should be able to get a detailed report from the program displaying how many of each type of cards ($1, $2, $3, $4 or $5 cards) I have and the total number of cards and as well as the average value of cards. This report changes as I add/remove cards from the system.
+
+
+Feature #0 (20 points):​ I should be able to exit out of the program when I am done.
+User will pick one of the 4 features -- if user makes an invalid choice (enters a number other than these 4 options), let the user know that it is an invalid entry. (20 points)
+
+-----------------------------------------
